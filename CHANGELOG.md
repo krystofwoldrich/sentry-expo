@@ -4,11 +4,42 @@
 
 ### 🛠 Breaking changes
 
+- Upgrade `@sentry/react-native` to `5.5.0`.
+  - Checkout [the migration guide](https://docs.sentry.io/platforms/react-native/migration/#from-4x-to-5x) for breaking changes
+
 ### 🎉 New features
 
 ### 🐛 Bug fixes
 
 ### 🧹 Chores
+
+## [6.2.1](https://github.com/expo/sentry-expo/releases/tag/v6.2.1) - 2023-06-07
+
+### 🛠 Breaking changes
+
+### 🎉 New features
+
+### 🐛 Bug fixes
+
+- RN Web Builds can't import SDK version from `@sentry/react-native`. ([#341](https://github.com/expo/sentry-expo/pull/341) by [@krystofwoldrich](https://github.com/krystofwoldrich))
+
+### 🧹 Chores
+
+## [6.2.0](https://github.com/expo/sentry-expo/releases/tag/v6.2.0) - 2023-06-06
+
+### 🛠 Breaking changes
+
+### 🎉 New features
+
+- Upgrade `@sentry/react-native` to `4.15.2`. ([#339](https://github.com/expo/sentry-expo/pull/339) by [@krystofwoldrich](https://github.com/krystofwoldrich))
+
+### 🐛 Bug fixes
+
+- Build-time source maps upload support for Expo SDK 48. ([#331](https://github.com/expo/sentry-expo/pull/339) by [@krystofwoldrich](https://github.com/krystofwoldrich))
+
+### 🧹 Chores
+
+- Add `sentry-expo` metadata to the Sentry clients. This will help with debugging issues related to the SDKs. ([#331](https://github.com/expo/sentry-expo/pull/331) by [@krystofwoldrich](https://github.com/krystofwoldrich))
 
 ## [6.1.1](https://github.com/expo/sentry-expo/releases/tag/v6.1.1) - 2023-03-16
 
