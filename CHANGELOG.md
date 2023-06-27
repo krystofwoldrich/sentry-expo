@@ -8,6 +8,20 @@
 
 ### 🐛 Bug fixes
 
+- Create new options object on every init to avoid read only error when initializing multiple times ([#350](https://github.com/expo/sentry-expo/pull/350) by [@krystofwoldrich](https://github.com/krystofwoldrich))
+
+### 🧹 Chores
+
+## [6.2.2](https://github.com/expo/sentry-expo/releases/tag/v6.2.2) - 2023-06-19
+
+### 🛠 Breaking changes
+
+### 🎉 New features
+
+### 🐛 Bug fixes
+
+- Dynamically resolve `collectModulesScript` script path to support monorepos. ([#343](https://github.com/expo/sentry-expo/pull/343) by [@krystofwoldrich](https://github.com/krystofwoldrich))
+
 ### 🧹 Chores
 
 ## [7.0.0](https://github.com/expo/sentry-expo/releases/tag/v7.0.0) - 2023-06-16
